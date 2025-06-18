@@ -2,9 +2,10 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
     padding: 20px;
+    font-size: ;
 }
 
 /* Title section styling */
@@ -36,9 +37,24 @@ body {
 /* Result section styling */
 .result {
     background-color: #e2e2e2;
-    text-align: center;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+button {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all 0.2s ease;
+  margin-bottom: .4%;
+  text-align: center;
+  align-content: center;
 }
