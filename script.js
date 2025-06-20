@@ -10,7 +10,7 @@ let Aaron = 0;
 let Ein = 0;
 
 let answeredQuestions = 0;
-let totalQuestions = 4; // since we have 3 questions
+let totalQuestions = 5; // since we have 3 questions
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () {

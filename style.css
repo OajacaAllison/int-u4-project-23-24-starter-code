@@ -1,6 +1,8 @@
 /* General body styling */
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #f4f4f4;
     color: #000000;
     line-height: 1.6;
@@ -17,7 +19,9 @@ body {
 .title h1 {
     text-align: center;
     color: #333;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #f4f4f4;
     border-radius: .5rem;
 }
@@ -29,14 +33,18 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 .questions h4 {
     color: #000000;
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .questions img {
@@ -54,11 +62,13 @@ body {
     font-size: 1.2em;
     text-align: center;
     margin-top: 20%;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     opacity: 0;
     visibility: hidden;
     transition: opacity 2s ease;
-    
+
 }
 
 
@@ -78,7 +88,9 @@ button {
     background-color: #000000;
     transition: all 0.2s ease;
     text-align: left;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 ul {
@@ -104,7 +116,9 @@ ul li button {
     font-size: 20px;
     border: none;
     border-radius: 6px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     cursor: pointer;
 }
 
