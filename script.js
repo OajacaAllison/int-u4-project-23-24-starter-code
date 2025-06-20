@@ -10,13 +10,12 @@ let Aaron = 0;
 let Ein = 0;
 
 let answeredQuestions = 0;
-let totalQuestions = 5; // since we have 3 questions
+let totalQuestions = 5;
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () {
         let data = buttons[i].getAttribute("data-character");
 
-        // Count votes manually
         if (data.indexOf("Aphmau") !== -1) {
             Aphmau++;
         }
@@ -33,7 +32,6 @@ for (let i = 0; i < buttons.length; i++) {
             Ein++;
         }
 
-        // Disable all buttons in the same list (ul)
         let meow = buttons[i].parentElement;
         let kitten = meow.getElementsByTagName("button");
         for (let j = 0; j < kitten.length; j++) {
